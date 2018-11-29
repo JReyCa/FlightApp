@@ -27,4 +27,115 @@
     <!-- default input strings -->
     <string name="origin_placeholder">some city</string>
     <string name="destination_placeholder">another city</string>
+
+    <!-- Strings for user profile -->
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phoneNumberSample">123-456-7890</string>
+    <string name="userName">User Name</string>
+    <string name="gender">Gender</string>
+    <string name="radioMale">Male</string>
+    <string name="radioFemale">Female</string>
+    <string name="radioOther">Other</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="fullName">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="paymentInfo">Payment Information</string>
+    <string name="billingAddress">Billing Address</string>
+    <string name="billingCity">City</string>
+    <string name="billingPostalCode">PostalCode</string>
+    <string name="cardInfo">Card Information</string>
+    <string name="cardType">Card Type</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="exp">Exp</string>
+    <string name="edit">Edit</string>
+    <string name="creditCardName">Name On Card</string>
+    <string name="creditCardNumber">Credit Card Number</string>
+    <string name="CCV">CCV</string>
+    <string name="expiryDate">Expiry Date</string>
+    <string name="addressOne">Address 1</string>
+    <string name="addressTwo">Address 2</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="expYear">
+        <item>Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+    <string-array name="expMonth">
+        <item>Month</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="Country">
+        <item>Country</item>
+        <item>USA</item>
+        <item>Canada</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+    </string-array>
+    <string-array name="cityDummy">
+        <item>City</item>
+    </string-array>
+    <string-array name="cityUSA">
+        <item>City</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Philadelphia</item>
+        <item>Phoenix</item>
+        <item>Arizona</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>Dallas</item>
+        <item>San Jose</item>
+        <item>Austin</item>
+        <item>Indianapolis</item>
+    </string-array>
+    <string-array name="cityCanada">
+        <item>City</item>
+        <item>Toronto </item>
+        <item>Montreal</item>
+        <item>Vancouver</item>
+        <item>Ottawa</item>
+        <item>Calgary</item>
+        <item>Edmonton</item>
+        <item>Quebec</item>
+        <item>Winnipeg</item>
+        <item>Hamilton</item>
+        <item>Kitchener</item>
+        <item>London</item>
+        <item>St.Catharines</item>
+        <item>Kelowna</item>
+    </string-array>
+
+
 </resources>

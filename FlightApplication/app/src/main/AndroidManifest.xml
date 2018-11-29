@@ -24,7 +24,10 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Search" />
-        <activity android:name=".DisplayActivity"></activity>
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".userProfile" />
+        <activity android:name="user_personal_info"></activity>
+        <activity android:name="user_payment_info"></activity>
     </application>
 
 </manifest>

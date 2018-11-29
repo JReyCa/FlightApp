@@ -13,4 +13,18 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <!-- label strings -->
+    <string name="search_label">Enter Flight Information</string>
+    <string name="origin_label">Origin</string>
+    <string name="destination_label">Destination</string>
+    <string name="departure_label">Departure Date</string>
+    <string name="return_label">Return Date</string>
+    <string name="roundtrip_label">Roundtrip?</string>
+    <string name="search_button_text">Search</string>
+    <string name="passenger_number_label"># of passengers</string>
+
+    <!-- default input strings -->
+    <string name="origin_placeholder">some city</string>
+    <string name="destination_placeholder">another city</string>
 </resources>

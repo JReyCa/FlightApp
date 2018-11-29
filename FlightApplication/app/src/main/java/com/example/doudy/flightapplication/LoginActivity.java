@@ -1,5 +1,6 @@
 package com.example.doudy.flightapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -119,7 +120,8 @@ public class LoginActivity extends AppCompatActivity {
                 Toast success = Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT);
                 success.show();
 
-                // Go to some other activity here
+                Intent searchPage = new Intent(this, Search.class);
+                startActivity(searchPage);
             }
             else {
                 Toast error = Toast.makeText(getApplicationContext(), "Information is incorrect. Try again.", Toast.LENGTH_SHORT);

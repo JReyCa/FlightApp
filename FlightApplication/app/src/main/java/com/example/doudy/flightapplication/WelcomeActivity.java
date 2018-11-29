@@ -24,7 +24,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void guestBtn_Click(View view) {
-        // This button should lead directly into the main application
-        // Insert some other activity path here
+        Intent searchPage = new Intent(this, Search.class);
+        startActivity(searchPage);
     }
 }

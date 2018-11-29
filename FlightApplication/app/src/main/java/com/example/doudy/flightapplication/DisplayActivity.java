@@ -1,5 +1,6 @@
 package com.example.doudy.flightapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -129,5 +130,10 @@ public class DisplayActivity extends AppCompatActivity {
         String rejoinedSpace = rejoinedSlash + " " + sepBySpace[1];
 
         return rejoinedSpace;
+    }
+
+    public void onPicClick(View view) {
+        Intent profilePage = new Intent(this, userProfile.class);
+        startActivity(profilePage);
     }
 }

@@ -24,16 +24,14 @@
     <LinearLayout
         android:id="@+id/masterLayout"
         android:layout_width="368dp"
-        android:layout_height="403dp"
+        android:layout_height="428dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:id="@+id/container0"
@@ -55,19 +53,19 @@
 
                     <TextView
                         android:id="@+id/fnum0"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Flight#: g48cu3" />
+                        android:text="Flight#: g48cu3"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/cities0"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Kelowna to Vancouver" />
+                        android:text="Kelowna to Vancouver"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -77,19 +75,19 @@
 
                     <TextView
                         android:id="@+id/dlabel0"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Dates:" />
+                        android:text="Dates:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/dates0"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="12/05 5:30 - 12/05 6:30" />
+                        android:text="12/05 5:30 - 12/05 6:30"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -99,29 +97,29 @@
 
                     <TextView
                         android:id="@+id/plabel0"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Price:" />
+                        android:text="Price:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/price0"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="$100" />
+                        android:text="$100"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/button0"
-                android:tag="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Select"
                 android:onClick="selectFlight0"
+                android:tag="0"
+                android:text="Select"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="54dp" />
 
@@ -147,19 +145,19 @@
 
                     <TextView
                         android:id="@+id/fnum1"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Flight#" />
+                        android:text="Flight#"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/cities1"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -169,19 +167,19 @@
 
                     <TextView
                         android:id="@+id/dlabel1"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Dates:" />
+                        android:text="Dates:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/dates1"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -191,28 +189,28 @@
 
                     <TextView
                         android:id="@+id/plabel1"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Price:" />
+                        android:text="Price:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/price1"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/button1"
-                android:tag="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="selectFlight1"
+                android:tag="1"
                 android:text="Select" />
 
         </LinearLayout>
@@ -237,19 +235,19 @@
 
                     <TextView
                         android:id="@+id/fnum2"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Flight#" />
+                        android:text="Flight#"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/cities2"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -259,19 +257,19 @@
 
                     <TextView
                         android:id="@+id/dlabel2"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Dates:" />
+                        android:text="Dates:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/dates2"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -281,28 +279,28 @@
 
                     <TextView
                         android:id="@+id/plabel2"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Price:" />
+                        android:text="Price:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/price2"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/button2"
-                android:tag="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="selectFlight2"
+                android:tag="2"
                 android:text="Select" />
 
         </LinearLayout>
@@ -327,19 +325,19 @@
 
                     <TextView
                         android:id="@+id/fnum3"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Flight#" />
+                        android:text="Flight#"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/cities3"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -349,19 +347,19 @@
 
                     <TextView
                         android:id="@+id/dlabel3"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Dates:" />
+                        android:text="Dates:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/dates3"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -371,32 +369,43 @@
 
                     <TextView
                         android:id="@+id/plabel3"
-                        android:textStyle="italic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Price:" />
+                        android:text="Price:"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:id="@+id/price3"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="TextView"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
             <Button
                 android:id="@+id/button3"
-                android:tag="3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="selectFlight3"
+                android:tag="3"
                 android:text="Select" />
 
         </LinearLayout>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="97dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="onPicClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank_profile_pic" />
 
 </android.support.constraint.ConstraintLayout>

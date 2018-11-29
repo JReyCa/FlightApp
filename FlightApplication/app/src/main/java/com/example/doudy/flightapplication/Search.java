@@ -107,4 +107,9 @@ public class Search extends AppCompatActivity {
 
         return false;
     }
+
+    public void onPicClick(View view) {
+        Intent userProfilePage = new Intent(this, userProfile.class);
+        startActivity(userProfilePage);
+    }
 }
